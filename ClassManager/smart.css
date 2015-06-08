@@ -1,0 +1,29 @@
+body{
+    font-size:1cm;
+
+
+}
+p{
+    position:relative;
+    top:10px;
+    left:20px;
+}
+tab{
+    border: 0;
+    font-family: Arial;
+    font-size: 18px;
+
+}
+ul{
+   width:100%;
+   margin:0;
+   padding:0;
+   list-style: none;
+}
+li{
+    margin-top: 15px;
+    padding-bottom:15px;
+    display: inline-block;
+    width:70%;
+    border-bottom: dashed 1px;
+}

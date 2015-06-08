@@ -1,0 +1,8 @@
+class test():
+    def __init__(self):
+        self.__clsname='math'
+
+    def get_classname(self):
+        return self.__clsname
+
+print(test.get_classname())

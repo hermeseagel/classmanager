@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>課程增加</title>
+{% load staticfiles %}
+<link rel="stylesheet"  href="{% static  'css/smart.css'  %}">
+</head>
+<body》
+   <h1>課程新加</h1>
+   <em><form action="/class/post/" method="post">
+       {{ form.as_ul }}
+       <input type="submit" value="加入新課程">
+   </form>
+       </em>
+</body>
+</html>

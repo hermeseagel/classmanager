@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<html>
+<head lang="zh_TW">
+    <meta charset="UTF-8">
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static "css/smart.css" %}">
+
+
+    <title>{{ title }}</title>
+</head>
+<body>
+    {{ classid }}
+    {% if form.class_name.errors %}
+    {% endif %}
+    {% if form.class_name.suceeful %}
+
+
+    <div id="success" class="form-message-success">
+          您已經新增課程成功!!
+    </div>
+    {% endif %}
+</body>
+</html>
